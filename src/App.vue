@@ -14,7 +14,14 @@ import LayoutFooter from './components/LayoutFooter.vue';
 <template>
   <!-- main container -->
   <div class="xl:w-3/5 md:w-4/5 w-5/5 bg-gray-50 rounded-xl mx-5 md:mx-auto my-10 md:px-20 px-10 pb-10">
-    <!-- header -->
+    <!-- heading  -->
+    <div class="flex flex-col text-center pt-10">
+      <MainHeader class="mb-5"/>
+      <MainInfo />
+    </div>
+
+    <hr class="mt-10">
+    <!-- header with link -->
     <div class="py-10">
       <header class="flex justify-between lg:w-1/2 md:w-3/4 mx-auto">
         <LayoutHeaderButton text="about" />
@@ -27,13 +34,7 @@ import LayoutFooter from './components/LayoutFooter.vue';
     <div class="md:grid md:grid-cols-2 md:space-x-8 flex flex-col">
       <!-- logo, text and button  -->
       <div class="justify-between flex flex-col md:order-1 order-2">
-        <div>
-          <MainHeader />
-          <hr class="my-5">
-          <MainInfo />
-          <hr class="my-5">
-          <MainText />
-        </div>
+        <MainText />
         <MainButton class="mt-10" />
       </div>
       <!-- picture  -->
