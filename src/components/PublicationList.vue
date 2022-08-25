@@ -11,7 +11,7 @@
                 <p class="pt-1 text-xs">Mathieu De Coster, Karel D'Oosterlinck, Marija Pizurica, Paloma Rabaey, Severine
                     Verlinden, Mieke Van Herreweghe, Joni Dambre</p>
                 <div class="h-40 mt-2">
-                    <img class="h-full w-full object-cover" src="../assets/marija_cropped.jpeg" alt="">
+                    <img class="h-full w-full object-cover rounded-xl" src="../assets/marija_cropped.jpeg" alt="">
                 </div>
             </div>
         </div>
