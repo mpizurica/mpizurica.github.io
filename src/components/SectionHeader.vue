@@ -7,5 +7,5 @@ export default {
 </script>
 
 <template>
-    <h2 class="text-3xl">{{ text }}</h2>
+    <h2 class="text-3xl mb-2">{{ text }}</h2>
 </template>

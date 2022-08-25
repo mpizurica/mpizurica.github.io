@@ -10,5 +10,5 @@ export default {
 </script>
 
 <template>
-    <p class="capitalize"> {{text}} </p>
+    <p class="capitalize font-semibold text-lg"> {{text}} </p>
 </template>

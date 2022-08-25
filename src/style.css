@@ -5,7 +5,17 @@
 
 :root {
   /* background-color: rgb(233, 243, 233); */
-  background-color: rgb(249 250 251);
+  /* background-color: rgb(249 250 251); */
+  background-color: theme('colors.stone.50');
+  color: theme('colors.stone.800');
+}
+
+.list-info{
+  color: theme('colors.stone.500')
+}
+
+.link {
+  color: theme('colors.stone.500')
 }
 /* :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
