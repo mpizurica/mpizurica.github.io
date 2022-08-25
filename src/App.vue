@@ -9,6 +9,7 @@ import NewsList from './components/NewsList.vue';
 import MainInfo from './components/MainInfo.vue';
 import PublicationList from './components/PublicationList.vue';
 import LayoutFooter from './components/LayoutFooter.vue';
+import HobbyCarousel from './components/HobbyCarousel.vue';
 </script>
 
 <template>
@@ -61,6 +62,13 @@ import LayoutFooter from './components/LayoutFooter.vue';
       <!-- publications -->
       <PublicationList />
     </div>
+    <!-- hobby section -->
+    <hr class="my-10">
+    <div id="hobbies">
+      <SectionHeader text="Hobbies" />
+      <!-- hobbies -->
+      <HobbyCarousel />
+    </div>
     <!-- footer  -->
     <hr class="my-10">
     <LayoutFooter />
@@ -89,7 +97,6 @@ export default {
         // user is scrolled
         if (this.view.atTopOfPage) {
           this.view.atTopOfPage = false;
-          // stickyHeader.style = 'position:sticky; left:0px; top:0px'
         }
       } else {
         // user is at top of page
@@ -102,11 +109,7 @@ export default {
 
 <style>
 .scrolled {
-  /* @apply border-b-2; */
-  @apply shadow-2xl;
-  /* @apply w-screen; */
-  /* @apply px-5; */
-  /* @apply -ml-5; */
+  @apply shadow-lg;
 }
 
 html {
