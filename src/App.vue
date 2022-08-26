@@ -67,7 +67,12 @@ import HobbyCarousel from './components/HobbyCarousel.vue';
     <div id="hobbies">
       <SectionHeader text="Hobbies" />
       <!-- hobbies -->
-      <HobbyCarousel />
+      <h3 class="text-lg font-semibold">Photography & Travel</h3>
+      <HobbyCarousel class="h-52 pb-52"/>
+      <h3 class="text-lg font-semibold">Artwork</h3>
+      <!-- <HobbyCarousel class="h-52 pb-52"/> -->
+      <h3 class="text-lg font-semibold">Reading</h3>
+      <!-- <HobbyCarousel class="h-52 pb-52"/> -->
     </div>
     <!-- footer  -->
     <hr class="my-10">
