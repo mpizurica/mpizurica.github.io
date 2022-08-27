@@ -26,7 +26,7 @@ import HobbyCarousel from './components/HobbyCarousel.vue';
   <div id="sticky-header" class="py-5 sticky top-0 z-50 bg-gray-50 duration-200"
     :class="{ scrolled: !view.atTopOfPage }">
     <div class="xl:w-3/5 md:w-4/5 w-5/5 mx-5 md:mx-auto">
-      <header class=" flex justify-between md:space-x-8">
+      <header class="flex justify-between md:space-x-8">
         <hr class="w-full my-auto hidden md:block" />
         <LayoutHeaderButton text="about" link="#about" />
         <LayoutHeaderButton text="news" link="#news" />
@@ -51,7 +51,7 @@ import HobbyCarousel from './components/HobbyCarousel.vue';
     </div>
     <!-- news section -->
     <hr class="my-10">
-    <div id="news" >
+    <div id="news">
       <SectionHeader text="News" />
       <NewsList />
     </div>
@@ -67,12 +67,8 @@ import HobbyCarousel from './components/HobbyCarousel.vue';
     <div id="hobbies">
       <SectionHeader text="Hobbies" />
       <!-- hobbies -->
-      <h3 class="text-lg font-semibold">Photography & Travel</h3>
-      <HobbyCarousel class="h-52 pb-52"/>
-      <h3 class="text-lg font-semibold">Artwork</h3>
-      <!-- <HobbyCarousel class="h-52 pb-52"/> -->
-      <h3 class="text-lg font-semibold">Reading</h3>
-      <!-- <HobbyCarousel class="h-52 pb-52"/> -->
+      <h3 class="text-lg font-semibold pb-2">Photography & Travel</h3>
+      <HobbyCarousel class="mb-80 py-10" />
     </div>
     <!-- footer  -->
     <hr class="my-10">

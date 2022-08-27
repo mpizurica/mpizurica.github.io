@@ -14,8 +14,8 @@
           <div class="rounded-xl absolute top-0 left-0 w-full h-full opacity-40 bg-gradient-to-b from-stone-800">
           </div>
           <div class="rounded-xl absolute top-0 left-0 w-full h-full p-5">
-            <h1 class="text-white font-bold opacity-100 duration-300">Capitol Reef National Park</h1>
-            <h2 class="text-white opacity-100 duration-300">Utah, U.S.A.</h2>
+            <h1 class="text-white font-bold opacity-100">Capitol Reef National Park</h1>
+            <h2 class="text-white opacity-100">Utah, U.S.A.</h2>
           </div>
         </div>
       </label>
@@ -25,8 +25,8 @@
           <div class="rounded-xl absolute top-0 left-0 w-full h-full opacity-40 bg-gradient-to-b from-stone-800">
           </div>
           <div class="rounded-xl absolute top-0 left-0 w-full h-full p-5">
-            <h1 class="text-white font-bold opacity-100 duration-300">Henry W. Coe State Park</h1>
-            <h2 class="text-white opacity-100 duration-300">California, U.S.A.</h2>
+            <h1 class="text-white font-bold opacity-100">Henry W. Coe State Park</h1>
+            <h2 class="text-white opacity-100">California, U.S.A.</h2>
           </div>
         </div>
       </label>
@@ -36,8 +36,8 @@
           <div class="rounded-xl absolute top-0 left-0 w-full h-full opacity-40 bg-gradient-to-b from-stone-800">
           </div>
           <div class="rounded-xl absolute top-0 left-0 w-full h-full p-5">
-            <h1 class="text-white font-bold opacity-100 duration-300">Monterey Aquarium</h1>
-            <h2 class="text-white opacity-100 duration-300">California, U.S.A.</h2>
+            <h1 class="text-white font-bold opacity-100">Monterey Aquarium</h1>
+            <h2 class="text-white opacity-100">California, U.S.A.</h2>
           </div>
         </div>
       </label>
@@ -47,8 +47,8 @@
           <div class="rounded-xl absolute top-0 left-0 w-full h-full opacity-40 bg-gradient-to-b from-stone-800">
           </div>
           <div class="rounded-xl absolute top-0 left-0 w-full h-full p-5">
-            <h1 class="text-white font-bold opacity-100 duration-300">Monument Valley</h1>
-            <h2 class="text-white opacity-100 duration-300">Arizona, U.S.A.</h2>
+            <h1 class="text-white font-bold opacity-100">Monument Valley</h1>
+            <h2 class="text-white opacity-100">Arizona, U.S.A.</h2>
           </div>
         </div>
       </label>
@@ -58,8 +58,8 @@
           <div class="rounded-xl absolute top-0 left-0 w-full h-full opacity-40 bg-gradient-to-b from-stone-800">
           </div>
           <div class="rounded-xl absolute top-0 left-0 w-full h-full p-5">
-            <h1 class="text-white font-bold opacity-100 duration-300">New York City</h1>
-            <h2 class="text-white opacity-100 duration-300">New York, U.S.A.</h2>
+            <h1 class="text-white font-bold opacity-100">New York City</h1>
+            <h2 class="text-white opacity-100">New York, U.S.A.</h2>
           </div>
         </div>
       </label>
@@ -94,7 +94,7 @@ input[type=radio] {
   left: 0;
   right: 0;
   margin: auto;
-  transition: transform .4s ease;
+  transition: transform .2s ease;
   cursor: pointer;
 }
 
@@ -112,9 +112,6 @@ input[type=radio] {
 .cards {
   /* padding-top: 200px; */
   /* margin-top: -200px; */
-  /* position: relative; */
-  /* width: 100%; */
-  /* height: 100%; */
   /* margin-bottom: 20px; */
 }
 
@@ -125,6 +122,7 @@ input[type=radio] {
 #item-4:checked~.cards #card-3,
 #item-5:checked~.cards #card-4 {
   transform: translatex(-45%) scale(.8);
+  /* transition-delay: 250ms; */
   z-index: 0;
 }
 
@@ -135,6 +133,7 @@ input[type=radio] {
 #item-4:checked~.cards #card-2,
 #item-5:checked~.cards #card-3 {
   transform: translatex(-80%) scale(.6);
+  /* transition-delay: 500ms; */
   z-index: -2;
 }
 
@@ -145,7 +144,8 @@ input[type=radio] {
 #item-4:checked~.cards #card-5,
 #item-5:checked~.cards #card-1 {
   transform: translatex(45%) scale(.8);
-  z-index: 0;
+  /* transition-delay: 250ms; */
+  z-index: 1;
 }
 
 /* card two after */
@@ -155,7 +155,8 @@ input[type=radio] {
 #item-4:checked~.cards #card-1,
 #item-5:checked~.cards #card-2 {
   transform: translatex(80%) scale(.6);
-  z-index: -2;
+  /* transition-delay: 500ms; */
+  z-index: -1;
 }
 
 /* card selected */
@@ -165,7 +166,20 @@ input[type=radio] {
 #item-4:checked~.cards #card-4,
 #item-5:checked~.cards #card-5 {
   transform: translatex(0) scale(1);
+  /* transition-delay: 250ms; */
   z-index: 2;
 
+}
+
+@keyframes centerMoveLeft {
+  from {
+    transform: translatex(0) scale(1);
+    z-index: 2;
+  }
+
+  to {
+    transform: translatex(-45%) scale(.8);
+    z-index: 0;
+  }
 }
 </style>
