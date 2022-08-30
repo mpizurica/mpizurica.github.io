@@ -10,6 +10,7 @@ import MainInfo from './components/MainInfo.vue';
 import PublicationList from './components/PublicationList.vue';
 import LayoutFooter from './components/LayoutFooter.vue';
 import HobbyCarousel from './components/HobbyCarousel.vue';
+import HobbyAccordion from './components/HobbyAccordion.vue';
 </script>
 
 <template>
@@ -69,6 +70,7 @@ import HobbyCarousel from './components/HobbyCarousel.vue';
       <!-- hobbies -->
       <h3 class="text-lg font-semibold pb-2">Photography & Travel</h3>
       <HobbyCarousel class="mb-80 py-10" />
+      <HobbyAccordion class="mb-80 py-10" />
     </div>
     <!-- footer  -->
     <hr class="my-10">

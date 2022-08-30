@@ -94,7 +94,7 @@ input[type=radio] {
   left: 0;
   right: 0;
   margin: auto;
-  transition: transform .2s ease;
+  transition: transform .5s ease;
   cursor: pointer;
 }
 
