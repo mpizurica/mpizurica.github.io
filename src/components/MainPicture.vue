@@ -1,5 +1,5 @@
 <template>
-    <div class="group relative">
+    <div class="group relative h-full">
         <!-- image -->
         <img class="md:h-full h-80 w-full object-cover rounded-xl shadow-xl" src="../assets/marija_cropped.jpeg"
             alt="Picture of Marija Pizurica in front of tunnel view at Yosemite National Park, California. Green trees, blue slightly cloudy sky.">

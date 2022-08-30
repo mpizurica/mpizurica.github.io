@@ -3,7 +3,7 @@ import MainHeader from './components/MainHeader.vue';
 import LayoutHeaderButton from './components/LayoutHeaderButton.vue';
 import MainText from './components/MainText.vue';
 import MainPicture from './components/MainPicture.vue';
-import MainButton from './components/MainButton.vue';
+import MainInfoBanner from './components/MainInfoBanner.vue';
 import SectionHeader from './components/SectionHeader.vue';
 import NewsList from './components/NewsList.vue';
 import MainInfo from './components/MainInfo.vue';
@@ -42,7 +42,7 @@ import HobbyCarousel from './components/HobbyCarousel.vue';
       <!-- logo, text and button  -->
       <div class="justify-between flex flex-col md:order-1 order-2">
         <MainText />
-        <MainButton class="mt-10" />
+        <MainInfoBanner class="mt-10" />
       </div>
       <!-- picture  -->
       <div class="md:order-2 order-1">
