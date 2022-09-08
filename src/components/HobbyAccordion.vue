@@ -1,11 +1,11 @@
 <template>
-    <div class="container h-screen">
+    <div class="slider-container">
         <input type="radio" name="slider2" id="slider-item-1">
         <input type="radio" name="slider2" id="slider-item-2" checked>
         <input type="radio" name="slider2" id="slider-item-3">
         <input type="radio" name="slider2" id="slider-item-4">
         <input type="radio" name="slider2" id="slider-item-5">
-        <div class="card-container flex w-full md:h-3/4 h-1/2 space-x-4">
+        <div class="card-container flex w-full h-full space-x-2">
             <div class="overlay-container" id="overlay-container-1">
                 <label id="slider-card-1" for="slider-item-1">
                     <div class="w-full h-full relative">
@@ -15,7 +15,7 @@
                                 class="rounded-xl absolute top-0 left-0 w-full h-full opacity-40 bg-gradient-to-b from-stone-800">
                             </div>
                             <div class="rounded-xl absolute top-0 left-0 w-full h-full p-5">
-                                <h1 class="text-white font-bold opacity-100">Capitol Reef National Park</h1>
+                                <h1 class="text-white font-bold opacity-100">Capitol Reef <br class="block sm:hidden"/> National Park</h1>
                                 <h2 class="text-white opacity-100">Utah, U.S.A.</h2>
                             </div>
                         </div>
@@ -79,7 +79,7 @@
                                 class="rounded-xl absolute top-0 left-0 w-full h-full opacity-40 bg-gradient-to-b from-stone-800">
                             </div>
                             <div class="rounded-xl absolute top-0 left-0 w-full h-full p-5">
-                                <h1 class="text-white font-bold opacity-100">Henry W. Coe State Park</h1>
+                                <h1 class="text-white font-bold opacity-100">Henry W. Coe <br class="block sm:hidden"/>State Park</h1>
                                 <h2 class="text-white opacity-100">California, U.S.A.</h2>
                             </div>
                         </div>
@@ -104,20 +104,31 @@ input[type=radio] {
     display: none;
 }
 
+.slider-container {
+    height: 40vh;
+}
+@screen md {
+    .slider-container {
+        height: 40vh;
+    }
+}
+@screen xl {
+    .slider-container {
+        height: 60vh;
+    }
+}
+
 .overlay-container {
-    /* @apply w-12; */
-    @apply min-w-min;
     @apply h-full;
     transition: width 1s ease;
 }
 
 .overlay {
-    transition: opacity 1s ease;
+    transition: opacity 1s ease 500ms;
     white-space: nowrap;
 }
 .overlay-container {
     @apply w-12;
-
 }
 
 .overlay {

@@ -69,8 +69,7 @@ import HobbyAccordion from './components/HobbyAccordion.vue';
       <SectionHeader text="Hobbies" />
       <!-- hobbies -->
       <h3 class="text-lg font-semibold pb-2">Photography & Travel</h3>
-      <HobbyCarousel class="mb-80 py-10" />
-      <HobbyAccordion class="mb-80 py-10" />
+      <HobbyAccordion class="" />
     </div>
     <!-- footer  -->
     <hr class="my-10">
