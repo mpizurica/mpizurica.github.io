@@ -6,7 +6,7 @@
                 <p class="list-info">Jul `22</p>
             </div>
             <div class="col-span-4">
-                <p>Our paper "Self-supervised Multimodal Pre-training for Lung Adenocarcinoma overall Survival Prediction" was accepted at the 23rd International Conference on Bioinformatics & Computational Biology, in Las Vegas (USA)!</p>
+                <p>Our paper "Self-supervised Multimodal Pre-training for Lung Adenocarcinoma overall Survival Prediction" was accepted at the 23rd International Conference on Bioinformatics and Computational Biology, in Las Vegas (USA)!</p>
             </div>
         </div>
         <div class="grid grid-cols-5">
