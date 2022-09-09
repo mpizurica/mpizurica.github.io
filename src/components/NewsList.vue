@@ -3,10 +3,10 @@
     <div class="flex flex-col space-y-2">
         <div class="grid grid-cols-5">
             <div class="">
-                <p class="list-info">Nov `22</p>
+                <p class="list-info">Jul `22</p>
             </div>
             <div class="col-span-4">
-                <p>Paper accepted at conference!</p>
+                <p>Our paper "Self-supervised Multimodal Pre-training for Lung Adenocarcinoma overall Survival Prediction" was accepted at the 23rd International Conference on Bioinformatics & Computational Biology, in Las Vegas (USA)!</p>
             </div>
         </div>
         <div class="grid grid-cols-5">
@@ -14,7 +14,7 @@
                 <p class="list-info">Mar `22</p>
             </div>
             <div class="col-span-4">
-                <p>Gave a talk, check out the slides.</p>
+                <p>Gave a talk at the Applied Bioinformatics in Life Sciences Conference in Leuven (Belgium)!</p>
             </div>
         </div>
     </div>
@@ -22,18 +22,18 @@
     <div v-show="expanded" class="flex flex-col space-y-2 pt-2">
         <div class="grid grid-cols-5">
             <div class="">
-                <p class="list-info">Nov `22</p>
+                <p class="list-info">Nov `21</p>
             </div>
             <div class="col-span-4">
-                <p>Paper accepted at conference!</p>
+                <p>Started my 1y research stay at Stanford University!</p>
             </div>
         </div>
         <div class="grid grid-cols-5">
             <div class="">
-                <p class="list-info">Mar `22</p>
+                <p class="list-info">Apr `21</p>
             </div>
             <div class="col-span-4">
-                <p>Gave a talk, check out the slides.</p>
+                <p>Received a scholarship from the Belgian American Education Foundation.</p>
             </div>
         </div>
     </div>
