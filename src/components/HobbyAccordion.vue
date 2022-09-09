@@ -12,7 +12,7 @@
                         <img src="../assets/travel/capitol_reef.jpeg" class="" alt="">
                         <div class="overlay">
                             <div
-                                class="rounded-xl absolute top-0 left-0 w-full h-full opacity-40 bg-gradient-to-b from-stone-800">
+                                class="rounded-xl absolute top-0 left-0 w-full h-full opacity-40 bg-gradient-to-br from-stone-600">
                             </div>
                             <div class="rounded-xl absolute top-0 left-0 w-full h-full p-5">
                                 <h1 class="text-white font-bold opacity-100">Capitol Reef <br class="block sm:hidden"/> National Park</h1>
@@ -28,7 +28,7 @@
                         <img src="../assets/travel/monterey_aquarium.jpeg" class="" alt="">
                         <div class="overlay">
                             <div
-                                class="rounded-xl absolute top-0 left-0 w-full h-full opacity-40 bg-gradient-to-b from-stone-800">
+                                class="rounded-xl absolute top-0 left-0 w-full h-full opacity-40 bg-gradient-to-br from-stone-600">
                             </div>
                             <div class="rounded-xl absolute top-0 left-0 w-full h-full p-5">
                                 <h1 class="text-white font-bold opacity-100">Monterey Aquarium</h1>
@@ -44,7 +44,7 @@
                         <img src="../assets/travel/monument_valley.jpeg" class="" alt="">
                         <div class="overlay">
                             <div
-                                class="rounded-xl absolute top-0 left-0 w-full h-full opacity-40 bg-gradient-to-b from-stone-800">
+                                class="rounded-xl absolute top-0 left-0 w-full h-full opacity-40 bg-gradient-to-br from-stone-600">
                             </div>
                             <div class="rounded-xl absolute top-0 left-0 w-full h-full p-5">
                                 <h1 class="text-white font-bold opacity-100">Monument Valley</h1>
@@ -60,7 +60,7 @@
                         <img src="../assets/travel/nyc.jpeg" class="" alt="">
                         <div class="overlay">
                             <div
-                                class="rounded-xl absolute top-0 left-0 w-full h-full opacity-40 bg-gradient-to-b from-stone-800">
+                                class="rounded-xl absolute top-0 left-0 w-full h-full opacity-40 bg-gradient-to-br from-stone-600">
                             </div>
                             <div class="rounded-xl absolute top-0 left-0 w-full h-full p-5">
                                 <h1 class="text-white font-bold opacity-100">New York City</h1>
@@ -76,7 +76,7 @@
                         <img src="../assets/travel/henry_coe.jpeg" class="" alt="">
                         <div class="overlay">
                             <div
-                                class="rounded-xl absolute top-0 left-0 w-full h-full opacity-40 bg-gradient-to-b from-stone-800">
+                                class="rounded-xl absolute top-0 left-0 w-full h-full opacity-40 bg-gradient-to-br from-stone-600">
                             </div>
                             <div class="rounded-xl absolute top-0 left-0 w-full h-full p-5">
                                 <h1 class="text-white font-bold opacity-100">Henry W. Coe <br class="block sm:hidden"/>State Park</h1>
@@ -119,12 +119,22 @@ input[type=radio] {
 }
 
 .overlay-container {
+    overflow: hidden;
     @apply h-full;
     transition: width 1s ease;
+    -webkit-transition: width 1s ease;
+    -moz-transition: width 1s ease;
+    -ms-transition: width 1s ease;
+    -o-transition: width 1s ease;
 }
 
 .overlay {
     transition: opacity 1s ease 500ms;
+    -webkit-transition: opacity 1s ease 500ms;
+    -moz-transition: opacity 1s ease 500ms;
+    -ms-transition: opacity 1s ease 500ms;
+    -o-transition: opacity 1s ease 500ms;
+    
     white-space: nowrap;
 }
 .overlay-container {

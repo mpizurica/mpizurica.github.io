@@ -78,6 +78,7 @@ import HobbyAccordion from './components/HobbyAccordion.vue';
 </template>
 
 <script>
+
 export default {
   data() {
     return {
