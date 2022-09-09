@@ -3,6 +3,14 @@
     <div class="flex flex-col space-y-2">
         <div class="grid grid-cols-5">
             <div class="">
+                <p class="list-info">Aug `22</p>
+            </div>
+            <div class="col-span-4">
+                <p>Got prize for best master thesis of the Faculty of Engineering and Architecture at Ghent Univerisity for my work ""!</p>
+            </div>
+        </div>
+        <div class="grid grid-cols-5">
+            <div class="">
                 <p class="list-info">Jul `22</p>
             </div>
             <div class="col-span-4">
