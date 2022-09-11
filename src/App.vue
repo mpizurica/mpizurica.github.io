@@ -11,6 +11,7 @@ import PublicationList from './components/PublicationList.vue';
 import LayoutFooter from './components/LayoutFooter.vue';
 import HobbyCarousel from './components/HobbyCarousel.vue';
 import HobbyAccordion from './components/HobbyAccordion.vue';
+import HobbyAccordion2 from './components/HobbyAccordion2.vue';
 </script>
 
 <template>
@@ -70,6 +71,7 @@ import HobbyAccordion from './components/HobbyAccordion.vue';
       <!-- hobbies -->
       <h3 class="text-lg font-semibold pb-2">Photography & Travel</h3>
       <HobbyAccordion class="" />
+      <!-- <HobbyAccordion2 class="" /> -->
     </div>
     <!-- footer  -->
     <hr class="my-10">
