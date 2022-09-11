@@ -34,6 +34,7 @@
             </div>
         </div>
     </div>
+    
     <!-- expand section -->
     <div v-show="expanded" class="flex flex-col space-y-2 pt-2">
         <div class="grid grid-cols-5">
@@ -62,8 +63,8 @@
                 <p>Received a scholarship from the <span class="font-bold"> Belgian American Education Foundation</span>!</p>
             </div>
         </div>
-        
     </div>
+
     <div class="pt-2 link">
         <button v-on:click="expanded = !expanded">
             <p>
