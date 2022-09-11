@@ -11,7 +11,6 @@ import PublicationList from './components/PublicationList.vue';
 import LayoutFooter from './components/LayoutFooter.vue';
 import HobbyCarousel from './components/HobbyCarousel.vue';
 import HobbyAccordion from './components/HobbyAccordion.vue';
-import HobbyAccordion2 from './components/HobbyAccordion2.vue';
 </script>
 
 <template>
