@@ -10,7 +10,7 @@
     <div class="cards mx-auto">
       <label class="card" for="item-1" id="card-1">
         <div class="w-full h-full">
-          <img src="../assets/travel/capitol_reef.jpeg" alt="">
+          <img src="../assets/travel/capitol_reef_crop.jpeg" alt="">
           <div class="rounded-xl absolute top-0 left-0 w-full h-full opacity-40 bg-gradient-to-b from-stone-800">
           </div>
           <div class="rounded-xl absolute top-0 left-0 w-full h-full p-5">

@@ -9,7 +9,7 @@
             <div class="overlay-container" id="overlay-container-1">
                 <label id="slider-card-1" for="slider-item-1">
                     <div class="w-full h-full relative">
-                        <img src="../assets/travel/capitol_reef.jpeg" class="" alt="">
+                        <img src="../assets/travel/capitol_reef_crop.jpeg" class="" alt="">
                         <div class="overlay">
                             <div
                                 class="rounded-xl absolute top-0 left-0 w-full h-full opacity-40 bg-gradient-to-br from-stone-600">
