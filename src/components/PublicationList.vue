@@ -10,7 +10,7 @@
                     <button class="link">[pdf]</button>
                     <button class="link"><a href="https://github.com/mpizurica/WSI_mut">[code]</a></button>
                 </p>
-                <p class="pt-1 text-xs">Marija Pizurica, Maarten Larmuseau, Kim Van der Eecken, Francisco Carrillo-Perez,
+                <p class="pt-1 text-xs"> <span class="underline">Marija Pizurica</span>, Maarten Larmuseau, Kim Van der Eecken, Francisco Carrillo-Perez,
                      Louise de Schaetzen van Brienen, Nicolaas Lumen, Jo Van Dorpe, Piet Ost, Sofie Verbeke, Olivier Gevaert<sup>*</sup> 
                      and Kathleen Marchal<sup>*</sup></p>
 
@@ -49,7 +49,7 @@
                     <button class="link">[pdf]</button> 
                     <button class="link"><a href="https://github.com/pacocp/SSL-Survival"> [code] </a></button>
                 </p>
-                <p class="pt-1 text-xs">Francisco Carrillo-Perez<sup>*</sup>, Marija Pizurica<sup>*</sup>, Ignacio Rojas, Kathleen Marchal, 
+                <p class="pt-1 text-xs">Francisco Carrillo-Perez<sup>*</sup>, <span class="underline">Marija Pizurica</span><sup>*</sup>, Ignacio Rojas, Kathleen Marchal, 
                                         Luis Javier Herrera and Olivier Gevaert
                 </p>
 
@@ -73,7 +73,7 @@
                     <button class="link"><a href="https://aclanthology.org/2021.mtsummit-at4ssl.10.pdf"> [pdf] </a></button>
                     <button class="link"><a href="https://github.com/m-decoster/fpt4slt"> [code] </a></button>
                 </p>
-                <p class="pt-1 text-xs">Mathieu De Coster, Karel D'Oosterlinck, Marija Pizurica, Paloma Rabaey, Severine
+                <p class="pt-1 text-xs">Mathieu De Coster, Karel D'Oosterlinck, <span class="underline">Marija Pizurica</span>, Paloma Rabaey, Severine
                     Verlinden, Mieke Van Herreweghe, Joni Dambre</p>
 
                 <button class="pt-1 text-xs" v-on:click="expanded_fpt = !expanded_fpt">{{expanded_fpt? '&#x21E1; hide' : '&#x21E2; show'}} abstract</button> 
