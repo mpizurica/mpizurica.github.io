@@ -3,7 +3,7 @@
         Hi! I’m a 1st year Computer Science PhD student advised by 
         <a href="https://www.ugent.be/ea/idlab/en/members/kathleen-marchal.htm" class="underline"> Kathleen Marchal</a>
         at Ghent Univerisity and 
-        <a href="https://med.stanford.edu/gevaertlab.html" class="underline"> Olivier Gevaert</a>  
+        <a href="https://med.stanford.edu/gevaertlab/people.html" class="underline"> Olivier Gevaert</a>  
         at Stanford University. In my     
         research, I develop deep-learning models that process digital histopathology images 
         ("virtual microscopy") of cancer tissues in order to derive properties of clinical interest.
