@@ -1,12 +1,15 @@
 <template>
     <p>
-        Hi! I’m a 1st year Computer Science PhD student advised by Kathleen Marchal
-        at Ghent Univerisity and Olivier Gevaert at Stanford University. In my     
+        Hi! I’m a 1st year Computer Science PhD student advised by 
+        <a href="https://www.ugent.be/ea/idlab/en/members/kathleen-marchal.htm" class="underline"> Kathleen Marchal</a>
+        at Ghent Univerisity and 
+        <a href="https://med.stanford.edu/gevaertlab.html" class="underline"> Olivier Gevaert</a>  
+        at Stanford University. In my     
         research, I develop deep-learning models that process digital histopathology images 
         ("virtual microscopy") of cancer tissues in order to derive properties of clinical interest.
     </p>
 
-    <p class="font-bold pt-2">
+    <p class="pt-5">
         My main research interests are:
     </p>
 
@@ -17,3 +20,9 @@
     </ul>
 
 </template>
+
+<!-- <style scoped>
+a:hover {
+  box-shadow: inset 150px 0 0 0 #ECFDF5;
+}
+</style> -->

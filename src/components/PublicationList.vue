@@ -9,7 +9,6 @@
                 <p>WSI based prediction of <span class='italic'>TP53</span> mutations identifies aggressive disease phenotype in prostate cancer 
                     <button class="link">[pdf]</button>
                     <button class="link"><a href="https://github.com/mpizurica/WSI_mut">[code]</a></button>
-                    <button class="link">[cite]</button> 
                 </p>
                 <p class="pt-1 text-xs">Marija Pizurica, Maarten Larmuseau, Kim Van der Eecken, Francisco Carrillo-Perez,
                      Louise de Schaetzen van Brienen, Nicolaas Lumen, Jo Van Dorpe, Piet Ost, Sofie Verbeke, Olivier Gevaert<sup>*</sup> 
@@ -47,9 +46,9 @@
             </div>
             <div class="col-span-4">
                 <p>Self-supervised multimodel pre-training for lung adenocarcinoma overall survival prediction 
-                    <button class="link">[arXiv]</button> 
+                    <button class="link">[pdf]</button> 
                     <button class="link"><a href="https://github.com/pacocp/SSL-Survival"> [code] </a></button>
-                    <button class="link">[cite]</button></p>
+                </p>
                 <p class="pt-1 text-xs">Francisco Carrillo-Perez<sup>*</sup>, Marija Pizurica<sup>*</sup>, Ignacio Rojas, Kathleen Marchal, 
                                         Luis Javier Herrera and Olivier Gevaert
                 </p>
@@ -70,8 +69,10 @@
                 <p class="list-info">AT4SSL `21</p>
             </div>
             <div class="col-span-4">
-                <p>Frozen Pretrained Transformers for Neural Sign Language Translation <button class="link">[arXiv]</button>
-                    <button class="link">[code]</button><button class="link">[cite]</button></p>
+                <p>Frozen Pretrained Transformers for Neural Sign Language Translation 
+                    <button class="link"><a href="https://aclanthology.org/2021.mtsummit-at4ssl.10.pdf"> [pdf] </a></button>
+                    <button class="link"><a href="https://github.com/m-decoster/fpt4slt"> [code] </a></button>
+                </p>
                 <p class="pt-1 text-xs">Mathieu De Coster, Karel D'Oosterlinck, Marija Pizurica, Paloma Rabaey, Severine
                     Verlinden, Mieke Van Herreweghe, Joni Dambre</p>
 
