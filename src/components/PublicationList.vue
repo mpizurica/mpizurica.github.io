@@ -2,10 +2,10 @@
     <button class="mb-5 link"> [Google Scholar]</button>
     <div class="flex flex-col space-y-5">
         <div class="grid grid-cols-5">
-            <div>
-                <p class="list-info"> in preparation</p>
+            <div class=" md:col-span-1 col-span-5">
+                <p class="list-info w-full"> Preprint </p>
             </div>
-            <div class="col-span-4">
+            <div class="md:col-span-4 col-span-5">
                 <p>WSI based prediction of <span class='italic'>TP53</span> mutations identifies aggressive disease phenotype in prostate cancer 
                     <button class="link">[pdf]</button>
                     <button class="link"><a href="https://github.com/mpizurica/WSI_mut">[code]</a></button>
@@ -41,10 +41,10 @@
             </div>
         </div>
         <div class="grid grid-cols-5">
-            <div>
-                <p class="list-info">BIOCOMP `22</p>
+            <div class=" md:col-span-1 col-span-5">
+                <p class="list-info w-full">BIOCOMP `22</p>
             </div>
-            <div class="col-span-4">
+            <div class="md:col-span-4 col-span-5">
                 <p>Self-supervised multimodel pre-training for lung adenocarcinoma overall survival prediction 
                     <button class="link">[pdf]</button> 
                     <button class="link"><a href="https://github.com/pacocp/SSL-Survival"> [code] </a></button>
@@ -65,10 +65,10 @@
             </div>
         </div>
         <div class="grid grid-cols-5">
-            <div>
-                <p class="list-info">AT4SSL `21</p>
+            <div class=" md:col-span-1 col-span-5">
+                <p class="list-info w-full">AT4SSL `21</p>
             </div>
-            <div class="col-span-4">
+            <div class="md:col-span-4 col-span-5">
                 <p>Frozen Pretrained Transformers for Neural Sign Language Translation 
                     <button class="link"><a href="https://aclanthology.org/2021.mtsummit-at4ssl.10.pdf"> [pdf] </a></button>
                     <button class="link"><a href="https://github.com/m-decoster/fpt4slt"> [code] </a></button>
