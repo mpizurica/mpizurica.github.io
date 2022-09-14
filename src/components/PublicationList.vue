@@ -45,7 +45,7 @@
                 <p class="list-info w-full">BIOCOMP `22</p>
             </div>
             <div class="md:col-span-4 col-span-5 text-lg">
-                <p>Self-supervised multimodel pre-training for lung adenocarcinoma overall survival prediction 
+                <p>Self-supervised multimodal pre-training for lung adenocarcinoma overall survival prediction 
                     <button class="link">[pdf]</button> 
                     <button class="link"><a href="https://github.com/pacocp/SSL-Survival"> [code] </a></button>
                 </p>
