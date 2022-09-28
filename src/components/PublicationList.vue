@@ -115,10 +115,6 @@
                             RNA-GAN is available here: https://github.com/gevaertlab/RNA-GAN.
                 </p>
                 </div>
-
-                <div class="h-55 mt-2">
-                    <img class="h-full w-full shadow-md object-cover rounded-xl" src="../assets/SSL_im.jpg" alt="">
-                </div>
             </div>
         </div>
         <div class="grid grid-cols-5">
@@ -136,10 +132,6 @@
                 <button class="pt-1 text-sm" v-on:click="expanded_diff = !expanded_diff">{{expanded_ssl? '&#x21E1; hide' : '&#x21E2; show'}} abstract</button> 
                 <div v-show="expanded_diff" class="pt-1 text-sm abstract">
                     <p>[coming soon]</p>
-                </div>
-
-                <div class="h-55 mt-2">
-                    <img class="h-full w-full shadow-md object-cover rounded-xl" src="../assets/SSL_im.jpg" alt="">
                 </div>
             </div>
         </div>
