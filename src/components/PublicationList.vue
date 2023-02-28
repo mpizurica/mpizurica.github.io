@@ -156,8 +156,8 @@
                 <p class="pt-1 text-sm">Francisco Carrillo-Perez, <span class="underline">Marija Pizurica</span>, Yuanning Zheng and Olivier Gevaert
                 </p>
 
-                <button class="pt-1 text-sm" v-on:click="expanded_diff = !expanded_diff">{{expanded_ssl? '&#x21E1; hide' : '&#x21E2; show'}} abstract</button> 
-                <div v-show="expanded_diff" class="pt-1 text-sm abstract">
+                <button class="pt-1 text-sm" v-on:click="expanded_e = !expanded_e">{{expanded_e? '&#x21E1; hide' : '&#x21E2; show'}} abstract</button> 
+                <div v-show="expanded_e" class="pt-1 text-sm abstract">
                     <p>Synthetic data generation offers a solution to the data scarcity problem in biomedicine 
                         where data are often expensive or difficult to obtain. By increasing the dataset size, more powerful 
                         and generalizable machine learning models can be trained, improving their performance in clinical decision support systems. 
@@ -175,6 +175,24 @@
                         Our results demonstrate the potential utility of synthetic data for developing multi-modal machine learning models 
                         in scarce data settings, as well as the possibility of imputing missing data modalitiesby leveraging 
                         the information present in available data modalities.</p>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-5">
+            <div class=" md:col-span-1 col-span-5 text-lg">
+                <p class="list-info w-full">Preprint</p>
+            </div>
+            <div class="md:col-span-4 col-span-5 text-lg">
+                <p>Spatial Cellular Architecture Predicts Prognosis in Glioblastoma
+                    <button class="link tooltip">[pdf]<span class="tooltiptext">coming soon!</span></button>
+                    <button class="link tooltip">[code]<span class="tooltiptext">coming soon!</span></button>
+                </p>
+                <p class="pt-1 text-sm"> Yuanning Zheng, Francisco Carrillo-Perez, <span class="underline">Marija Pizurica</span>, Dieter Henrik Heiland and Olivier Gevaert
+                </p>
+
+                <button class="pt-1 text-sm" v-on:click="expanded_diff = !expanded_diff">{{expanded_diff? '&#x21E1; hide' : '&#x21E2; show'}} abstract</button> 
+                <div v-show="expanded_diff" class="pt-1 text-sm abstract">
+                    <p>	Intra-tumoral heterogeneity and cell-state plasticity are key drivers for the therapeutic resistance of glioblastoma (GBM). Studies based on single-cell RNA-seq and spatial transcriptomics have classified GBM cells into distinct transcriptional phenotypes. However, how the transcriptional diversity and spatial cellular organization are associated with patient prognosis remains incompletely resolved. Here, we developed a deep learning model to predict spatially resolved transcriptional programs from histology images. The model was trained on spatial transcriptomics data and validated in external testing cohorts. Applying the model to two separate patient cohorts led to the discovery of conserved relationships between tumor architecture and prognosis. Patients with poor prognosis had higher proportions of GBM cells expressing a hypoxia-induced transcriptional program. In addition, a clustering pattern of reactive astrocytes contributed to a poor prognosis. Conversely, when the reactive astrocytes were dispersed and connected to other cell types, the risk was decreased. To validate our results, we developed a separate deep learning model that used histology images to predict prognosis. Applying the model to spatial transcriptomics data discovered survival-associated regional gene expression programs. Genes related to glycoprotein metabolism and injury response were significantly upregulated in tumor cells with higher aggressiveness. Our studies established a scalable approach to resolve the transcriptional heterogeneity of GBM and linked the spatial cellular architecture to clinical outcomes.</p>
                 </div>
             </div>
         </div>
@@ -210,7 +228,8 @@
                 expanded_ssl: false,
                 expanded_fpt: false,
                 expanded_rna_gan: false,
-                expanded_diff: false
+                expanded_diff: false,
+                expanded_e: false,
 
             }
         }
