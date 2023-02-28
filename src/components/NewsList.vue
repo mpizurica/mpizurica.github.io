@@ -3,6 +3,16 @@
     <div class="flex flex-col space-y-2">
         <div class="grid grid-cols-5">
             <div class="">
+                <p class="list-info">Feb `23</p>
+            </div>
+            <div class="col-span-4">
+                <p> Our <span class="font-bold"> paper </span> 
+                    <span class="italic">"Multimodal data fusion for cancer biomarker discovery with deep learning"</span>  
+                    was accepted in Nature Machine Intelligence! </p>
+            </div>
+        </div>
+        <div class="grid grid-cols-5">
+            <div class="">
                 <p class="list-info">Aug `22</p>
             </div>
             <div class="col-span-4">
@@ -24,6 +34,11 @@
                     in Las Vegas (USA)!</p>
             </div>
         </div>
+        
+    </div>
+    
+    <!-- expand section -->
+    <div v-show="expanded" class="flex flex-col space-y-2 pt-2">
         <div class="grid grid-cols-5">
             <div class="">
                 <p class="list-info">Mar `22</p>
@@ -33,10 +48,7 @@
                     at the Applied Bioinformatics in Life Sciences Conference in Leuven (Belgium)!</p>
             </div>
         </div>
-    </div>
-    
-    <!-- expand section -->
-    <div v-show="expanded" class="flex flex-col space-y-2 pt-2">
+        
         <div class="grid grid-cols-5">
             <div class="">
                 <p class="list-info">Nov `21</p>
