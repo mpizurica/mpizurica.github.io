@@ -3,6 +3,37 @@
     <div class="flex flex-col space-y-5"> 
         <div class="grid grid-cols-5">
             <div class=" md:col-span-1 col-span-5 text-lg">
+                <p class="list-info w-full"> Nature Machine Intelligence </p>
+            </div>
+            <div class="md:col-span-4 col-span-5 text-lg">
+                <p>Multimodal data fusion for cancer biomarker discovery with deep learning 
+                    <button class="link tooltip">[pdf]<span class="tooltiptext">coming soon!</span></button>
+                </p>
+                <p class="pt-1 text-sm"> Sandra Steyaert, <span class="underline">Marija Pizurica</span>, Priya Khandelwal Divya Nagaraj, 
+                    Tina Hernandez-Boussard, Andrew J Gentles, and Olivier Gevaert  </p>
+
+                <button class="pt-1 text-sm" v-on:click="expanded_s = !expanded_s">{{expanded_s? '&#x21E1; hide' : '&#x21E2; show'}} abstract</button> 
+
+                <div v-show="expanded_s" class="pt-1 text-sm abstract">
+                    <p>
+                        Technological advances now make it possible to study a patient from multiple angles with high-dimensional, 
+                        high-throughput multi-scale biomedical data. In oncology, massive amounts of data are being generated ranging 
+                        from molecular, histopathology, radiology to clinical records. The introduction of deep learning has significantly 
+                        advanced the analysis of biomedical data. However, most approaches focus on single data modalities leading to 
+                        slow progress in methods to integrate complementary data types. Development of effective multimodal fusion 
+                        approaches is becoming increasingly important as a single modality might not be consistent and sufficient 
+                        to capture the heterogeneity of complex diseases to tailor medical care and improve personalised medicine. 
+                        Many initiatives now focus on integrating these disparate modalities to unravel the biological processes 
+                        involved in multifactorial diseases such as cancer. However, many obstacles remain, including lack of usable 
+                        data as well as methods for clinical validation and interpretation. Here, we cover these current challenges 
+                        and reflect on opportunities through deep learning to tackle data sparsity and scarcity, multimodal 
+                        interpretability, and standardisation of datasets.
+                        </p>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-5">
+            <div class=" md:col-span-1 col-span-5 text-lg">
                 <p class="list-info w-full"> Preprint </p>
             </div>
             <div class="md:col-span-4 col-span-5 text-lg">
@@ -18,29 +49,25 @@
 
                 <div v-show="expanded" class="pt-1 text-sm abstract">
                     <p>
-                        In prostate cancer, there is an urgent need for objective prognostic biomarkers that identify 
-                        a tumor's metastatic potential at an early stage. While recent analyses indicated TP53 mutations 
-                        as candidate biomarker, molecular profiling in a clinical setting is complicated by 
-                        the heterogeneity of prostate tumors. Deep learning models that can predict the presence 
-                        of TP53 mutations from Whole Slide Images (WSIs) offer the potential to solve the heterogeneity 
-                        issue encountered during marker profiling.  Although  previous studies show how these models 
-                        achieve reasonable performance at patient level, it has not yet been validated whether they 
-                        can also correctly indicate the region with the highest load of the predicted mutation within 
-                        a heterogenous solid tumor. In addition, no in-depth assessment has been performed to explain 
-                        the possible origin of the FP or FN predictions of these models, while such interpretations 
-                        are imperative for their implementation in practice.</p>
-                        
-                        <p>
-                        Here we developed TiDo, a deep learning model that achieves state-of-the-art performance 
-                        in predicting TP53 mutations from WSIs of primary prostate tumors. On an independent
-                        multi-focal cohort, we could not only show successful generalization of the model, but 
-                        also indicate within a tumor the regions with the highest prevalence of TP53 mutations. 
-                        In addition, in-depth molecular analysis of the predictions shows that, by training on 
-                        the label TP53 mutation, our model captures a molecular phenotype that is representative for 
-                        aggressive disease triggered by, but not restricted to TP53 mutations. This indicates that 
-                        features derived from WSIs cannot only facilitate molecular profiling of TP53 mutations by 
-                        indicating the regions on The WSI with the highest mutational TP53 load, but have the 
-                        potential to become the next-generation, in-silico biomarkers for prostate cancer prognosis</p>
+                        In prostate cancer, there is an urgent need for objective prognostic biomarkers that identify a tumor's 
+                        metastatic potential at an early stage. While recent analyses indicated TP53 mutations as candidate biomarker, 
+                        molecular profiling in a clinical setting is complicated by tumor heterogeneity. Deep learning models that 
+                        predict the spatial presence of TP53 mutations in Whole Slide Images (WSIs) offer the potential to mitigate 
+                        this issue. To assess the potential of WSIs as proxy for spatially resolved profiling or as biomarker for 
+                        aggressive disease, we developed TiDo, a deep learning model that achieves state-of-the-art performance in 
+                        predicting TP53 mutations from WSIs of primary prostate tumors. On an independent multi-focal cohort, we 
+                        could show successful generalization of the model, both at patient and lesion level. Hence, the model offers 
+                        insight into which lesions on a WSI most likely contain a TP53 mutation.</p>
+
+                        <p> Analysis of model predictions revealed that false positive (FP) predictions could at least partially be 
+                        explained by TP53 deletions. This suggests that some FP carry an alteration other than a TP53 mutation of 
+                        which the effect converges in the same histological phenotype. Comparative expression analysis and 
+                        histological cell type analysis identified such common phenotype, related to stromal composition. This 
+                        indicates that WSI-based models might not be able to perfectly predict the spatial presence of individual TP53 
+                        mutations. However, we show they have the potential of capturing a tumor's aggressive potential by observing 
+                        a downstream phenotype of the tumor cells and TME associated with a biomarker of aggressive disease 
+                        (TP53)
+                        </p>
                 </div>
                 
                 <div class="h-55 mt-2">
@@ -162,6 +189,7 @@
     export default {
         data() {
             return {
+                expanded_s: false,
                 expanded: false,
                 expanded_ssl: false,
                 expanded_fpt: false,
