@@ -3,7 +3,7 @@
     <div class="flex flex-col space-y-5"> 
         <div class="grid grid-cols-5">
             <div class=" md:col-span-1 col-span-5 text-lg">
-                <p class="list-info w-full"> Nature Machine Intelligence </p>
+                <p class="list-info w-full"> Nat. Mach. Intell. '23 </p>
             </div>
             <div class="md:col-span-4 col-span-5 text-lg">
                 <p>Multimodal data fusion for cancer biomarker discovery with deep learning 
@@ -105,7 +105,7 @@
             </div>
             <div class="md:col-span-4 col-span-5 text-lg">
                 <p>Synthetic whole-slide image tile generation with gene expression profiles infused deep generative models
-                    <button class="link tooltip">[pdf]<span class="tooltiptext">coming soon!</span></button>
+                    <button class="link"><a href="https://www.biorxiv.org/content/10.1101/2022.12.16.520705v1">[pdf]</a></button>
                     <button class="link"><a href="https://github.com/gevaertlab/RNA-GAN"> [code] </a></button>
                 </p>
                 <p class="pt-1 text-sm">Francisco Carrillo-Perez, <span class="underline">Marija Pizurica</span>, Michael G.
@@ -150,7 +150,7 @@
             </div>
             <div class="md:col-span-4 col-span-5 text-lg">
                 <p>RNA-to-image pan-cancer synthesis using cascaded diffusion models
-                    <button class="link tooltip">[pdf]<span class="tooltiptext">coming soon!</span></button>
+                    <button class="link"><a href="https://www.biorxiv.org/content/10.1101/2023.01.13.523899v1">[pdf]</a></button>
                     <button class="link tooltip">[code]<span class="tooltiptext">coming soon!</span></button>
                 </p>
                 <p class="pt-1 text-sm">Francisco Carrillo-Perez, <span class="underline">Marija Pizurica</span>, Yuanning Zheng and Olivier Gevaert
@@ -158,7 +158,23 @@
 
                 <button class="pt-1 text-sm" v-on:click="expanded_diff = !expanded_diff">{{expanded_ssl? '&#x21E1; hide' : '&#x21E2; show'}} abstract</button> 
                 <div v-show="expanded_diff" class="pt-1 text-sm abstract">
-                    <p>[coming soon]</p>
+                    <p>Synthetic data generation offers a solution to the data scarcity problem in biomedicine 
+                        where data are often expensive or difficult to obtain. By increasing the dataset size, more powerful 
+                        and generalizable machine learning models can be trained, improving their performance in clinical decision support systems. 
+                        The generation of synthetic data for cancer diagnosis has been explored in the literature, but typically 
+                        in the single modality setting (e.g. whole-slide image tiles or RNA-Seq data). 
+                        Given the success of text-to-image synthesis models for natural images, where one modality is used to generate a 
+                        related one, we propose RNA-to-image synthesis (RNA-CDM) in a multi-cancer context. 
+                        First, we trained a variational auto-encoder in order to reduce the dimensions of the patient's gene expression profile, 
+                        showing that this can accurately differentiate between different cancer types. 
+                        Then, we trained a cascaded diffusion model to synthesize realistic whole-slide image tiles using the latent 
+                        representation of the patient's RNA-Seq data. We show that generated tiles preserved the cell-type distribution 
+                        found in real-world data, with important cell types detectable by a state-of-the-art cell identification model 
+                        in the synthetic samples. Next, we successfully used this synthetic data to pretrain a multi-cancer classification model, 
+                        observing an improvement in performance after training from scratch across 5-fold cross validation. 
+                        Our results demonstrate the potential utility of synthetic data for developing multi-modal machine learning models 
+                        in scarce data settings, as well as the possibility of imputing missing data modalitiesby leveraging 
+                        the information present in available data modalities.</p>
                 </div>
             </div>
         </div>
