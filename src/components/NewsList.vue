@@ -3,6 +3,16 @@
     <div class="flex flex-col space-y-2">
         <div class="grid grid-cols-5">
             <div class="">
+                <p class="list-info">Apr `23</p>
+            </div>
+            <div class="col-span-4">
+                <p> Our <span class="font-bold"> paper </span> 
+                    <span class="italic">"Whole slide imaging-based prediction of <span class='italic'>TP53</span> mutations identifies an aggressive disease phenotype in prostate cancer "</span>  
+                    was accepted in Cancer Research! </p>
+            </div>
+        </div>
+        <div class="grid grid-cols-5">
+            <div class="">
                 <p class="list-info">Feb `23</p>
             </div>
             <div class="col-span-4">
@@ -23,6 +33,10 @@
                                             slide images using deep learning"</span>!</p>
             </div>
         </div>
+    </div>
+    
+    <!-- expand section -->
+    <div v-show="expanded" class="flex flex-col space-y-2 pt-2">
         <div class="grid grid-cols-5">
             <div class="">
                 <p class="list-info">Jul `22</p>
@@ -34,11 +48,7 @@
                     in Las Vegas (USA)!</p>
             </div>
         </div>
-        
-    </div>
-    
-    <!-- expand section -->
-    <div v-show="expanded" class="flex flex-col space-y-2 pt-2">
+
         <div class="grid grid-cols-5">
             <div class="">
                 <p class="list-info">Mar `22</p>

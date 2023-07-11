@@ -3,11 +3,11 @@
     <div class="flex flex-col space-y-5"> 
         <div class="grid grid-cols-5">
             <div class=" md:col-span-1 col-span-5 text-lg">
-                <p class="list-info w-full"> Nat. Mach. Intell. '23 </p>
+                <p class="list-info w-full"> Nature Machine Intelligence `23 </p>
             </div>
             <div class="md:col-span-4 col-span-5 text-lg">
                 <p>Multimodal data fusion for cancer biomarker discovery with deep learning 
-                    <button class="link tooltip">[pdf]<span class="tooltiptext">coming soon!</span></button>
+                    <button class="link"><a href="https://www.nature.com/articles/s42256-023-00633-5">[paper link]</a></button>
                 </p>
                 <p class="pt-1 text-sm"> Sandra Steyaert, <span class="underline">Marija Pizurica</span>, Priya Khandelwal Divya Nagaraj, 
                     Tina Hernandez-Boussard, Andrew J Gentles, and Olivier Gevaert  </p>
@@ -34,39 +34,36 @@
         </div>
         <div class="grid grid-cols-5">
             <div class=" md:col-span-1 col-span-5 text-lg">
-                <p class="list-info w-full"> Preprint </p>
+                <p class="list-info w-full"> Cancer Research `23` </p>
             </div>
             <div class="md:col-span-4 col-span-5 text-lg">
-                <p>WSI based prediction of <span class='italic'>TP53</span> mutations identifies aggressive disease phenotype in prostate cancer 
-                    <button class="link tooltip">[pdf]<span class="tooltiptext">coming soon!</span></button>
+                <p>Whole slide imaging-based prediction of <span class='italic'>TP53</span> mutations identifies an aggressive disease phenotype in prostate cancer   
+                    <button class="link"><a href="https://aacrjournals.org/cancerres/article/doi/10.1158/0008-5472.CAN-22-3113/727461/Whole-slide-imaging-based-prediction-of-TP53">[paper link]</a></button>
                     <button class="link"><a href="https://github.com/mpizurica/WSI_mut">[code]</a></button>
                 </p>
-                <p class="pt-1 text-sm"> <span class="underline">Marija Pizurica</span>, Maarten Larmuseau, Kim Van der Eecken, Francisco Carrillo-Perez,
-                     Louise de Schaetzen van Brienen, Nicolaas Lumen, Jo Van Dorpe, Piet Ost, Sofie Verbeke, Olivier Gevaert<sup>*</sup> 
+                <p class="pt-1 text-sm"> <span class="underline">Marija Pizurica</span>, Maarten Larmuseau, Kim Van der Eecken, 
+                     Louise de Schaetzen van Brienen, Francisco Carrillo-Perez, Simon Isphording, Nicolaas Lumen, Jo Van Dorpe, 
+                     Piet Ost, Sofie Verbeke, Olivier Gevaert<sup>*</sup> 
                      and Kathleen Marchal<sup>*</sup></p>
 
                 <button class="pt-1 text-sm" v-on:click="expanded = !expanded">{{expanded? '&#x21E1; hide' : '&#x21E2; show'}} abstract</button> 
 
                 <div v-show="expanded" class="pt-1 text-sm abstract">
                     <p>
-                        In prostate cancer, there is an urgent need for objective prognostic biomarkers that identify a tumor's 
-                        metastatic potential at an early stage. While recent analyses indicated TP53 mutations as candidate biomarker, 
-                        molecular profiling in a clinical setting is complicated by tumor heterogeneity. Deep learning models that 
-                        predict the spatial presence of TP53 mutations in Whole Slide Images (WSIs) offer the potential to mitigate 
-                        this issue. To assess the potential of WSIs as proxy for spatially resolved profiling or as biomarker for 
-                        aggressive disease, we developed TiDo, a deep learning model that achieves state-of-the-art performance in 
-                        predicting TP53 mutations from WSIs of primary prostate tumors. On an independent multi-focal cohort, we 
-                        could show successful generalization of the model, both at patient and lesion level. Hence, the model offers 
-                        insight into which lesions on a WSI most likely contain a TP53 mutation.</p>
-
-                        <p> Analysis of model predictions revealed that false positive (FP) predictions could at least partially be 
-                        explained by TP53 deletions. This suggests that some FP carry an alteration other than a TP53 mutation of 
-                        which the effect converges in the same histological phenotype. Comparative expression analysis and 
-                        histological cell type analysis identified such common phenotype, related to stromal composition. This 
-                        indicates that WSI-based models might not be able to perfectly predict the spatial presence of individual TP53 
-                        mutations. However, we show they have the potential of capturing a tumor's aggressive potential by observing 
-                        a downstream phenotype of the tumor cells and TME associated with a biomarker of aggressive disease 
-                        (TP53)
+                        In prostate cancer, there is an urgent need for objective prognostic biomarkers that identify the metastatic 
+                        potential of a tumor at an early stage. While recent analyses indicated <span class='italic'>TP53</span> mutations as candidate biomarkers, 
+                        molecular profiling in a clinical setting is complicated by tumor heterogeneity. Deep learning models that predict 
+                        the spatial presence of <span class='italic'>TP53</span> mutations in whole slide images (WSIs) offer the potential to mitigate this issue. 
+                        To assess the potential of WSIs as proxies for spatially resolved profiling and as biomarkers for aggressive disease, 
+                        we developed <span class='italic'>TiDo</span>, a deep learning model that achieves state-of-the-art performance in predicting <span class='italic'>TP53</span> mutations 
+                        from WSIs of primary prostate tumors. In an independent multi-focal cohort, the model showed successful 
+                        generalization at both the patient and lesion level. Analysis of model predictions revealed that false positive (FP)
+                        predictions could at least partially be explained by <span class='italic'>TP53</span> deletions, suggesting that some FP carry an alteration 
+                        that leads to the same histological phenotype as <span class='italic'>TP53</span> mutations. Comparative expression and histological cell 
+                        type analyses identified a <span class='italic'>TP53</span>-like cellular phenotype triggered by expression of pathways affecting stromal 
+                        composition. Together, these findings indicate that WSI-based models might not be able to perfectly predict the 
+                        spatial presence of individual <span class='italic'>TP53</span> mutations but they have the potential to elucidate the prognosis of a tumor 
+                        by depicting a downstream phenotype associated with aggressive disease biomarkers.
                         </p>
                 </div>
                 
@@ -81,7 +78,7 @@
             </div>
             <div class="md:col-span-4 col-span-5 text-lg">
                 <p>Self-supervised multimodal pre-training for lung adenocarcinoma overall survival prediction 
-                    <button class="link tooltip">[pdf]<span class="tooltiptext">coming soon!</span></button>
+                    <button class="link tooltip">[paper link]<span class="tooltiptext">coming soon!</span></button>
                     <button class="link"><a href="https://github.com/pacocp/SSL-Survival"> [code] </a></button>
                 </p>
                 <p class="pt-1 text-sm">Francisco Carrillo-Perez<sup>*</sup>, <span class="underline">Marija Pizurica</span><sup>*</sup>, Ignacio Rojas, Kathleen Marchal, 
@@ -105,7 +102,7 @@
             </div>
             <div class="md:col-span-4 col-span-5 text-lg">
                 <p>Synthetic whole-slide image tile generation with gene expression profiles infused deep generative models
-                    <button class="link"><a href="https://www.biorxiv.org/content/10.1101/2022.12.16.520705v1">[pdf]</a></button>
+                    <button class="link"><a href="https://www.biorxiv.org/content/10.1101/2022.12.16.520705v1">[paper link]</a></button>
                     <button class="link"><a href="https://github.com/gevaertlab/RNA-GAN"> [code] </a></button>
                 </p>
                 <p class="pt-1 text-sm">Francisco Carrillo-Perez, <span class="underline">Marija Pizurica</span>, Michael G.
@@ -150,7 +147,7 @@
             </div>
             <div class="md:col-span-4 col-span-5 text-lg">
                 <p>RNA-to-image pan-cancer synthesis using cascaded diffusion models
-                    <button class="link"><a href="https://www.biorxiv.org/content/10.1101/2023.01.13.523899v1">[pdf]</a></button>
+                    <button class="link"><a href="https://www.biorxiv.org/content/10.1101/2023.01.13.523899v1">[paper link]</a></button>
                     <button class="link tooltip">[code]<span class="tooltiptext">coming soon!</span></button>
                 </p>
                 <p class="pt-1 text-sm">Francisco Carrillo-Perez, <span class="underline">Marija Pizurica</span>, Yuanning Zheng and Olivier Gevaert
@@ -180,11 +177,11 @@
         </div>
         <div class="grid grid-cols-5">
             <div class=" md:col-span-1 col-span-5 text-lg">
-                <p class="list-info w-full">Preprint</p>
+                <p class="list-info w-full">Nature Communications `23</p>
             </div>
             <div class="md:col-span-4 col-span-5 text-lg">
                 <p>Spatial Cellular Architecture Predicts Prognosis in Glioblastoma
-                    <button class="link tooltip">[pdf]<span class="tooltiptext">coming soon!</span></button>
+                    <button class="link tooltip">[paper link]<span class="tooltiptext">coming soon!</span></button>
                     <button class="link tooltip">[code]<span class="tooltiptext">coming soon!</span></button>
                 </p>
                 <p class="pt-1 text-sm"> Yuanning Zheng, Francisco Carrillo-Perez, <span class="underline">Marija Pizurica</span>, Dieter Henrik Heiland and Olivier Gevaert
@@ -202,7 +199,7 @@
             </div>
             <div class="md:col-span-4 col-span-5 text-lg">
                 <p>Frozen Pretrained Transformers for Neural Sign Language Translation 
-                    <button class="link"><a href="https://aclanthology.org/2021.mtsummit-at4ssl.10.pdf"> [pdf] </a></button>
+                    <button class="link"><a href="https://aclanthology.org/2021.mtsummit-at4ssl.10.pdf"> [paper link] </a></button>
                     <button class="link"><a href="https://github.com/m-decoster/fpt4slt"> [code] </a></button>
                 </p>
                 <p class="pt-1 text-sm">Mathieu De Coster, Karel D'Oosterlinck, <span class="underline">Marija Pizurica</span>, Paloma Rabaey, Severine
