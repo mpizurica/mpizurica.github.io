@@ -34,7 +34,7 @@
         </div>
         <div class="grid grid-cols-5">
             <div class=" md:col-span-1 col-span-5 text-lg">
-                <p class="list-info w-full"> Cancer Research `23` </p>
+                <p class="list-info w-full"> Cancer Research `23 </p>
             </div>
             <div class="md:col-span-4 col-span-5 text-lg">
                 <p>Whole slide imaging-based prediction of <span class='italic'>TP53</span> mutations identifies an aggressive disease phenotype in prostate cancer   

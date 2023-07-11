@@ -7,7 +7,7 @@
             </div>
             <div class="col-span-4">
                 <p> Our <span class="font-bold"> paper </span> 
-                    <span class="italic">"Whole slide imaging-based prediction of <span class='italic'>TP53</span> mutations identifies an aggressive disease phenotype in prostate cancer "</span>  
+                    <span class="italic">"Whole slide imaging-based prediction of <span class='italic'>TP53</span> mutations identifies an aggressive disease phenotype in prostate cancer"</span>  
                     was accepted in Cancer Research! </p>
             </div>
         </div>
