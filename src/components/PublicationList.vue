@@ -181,8 +181,8 @@
             </div>
             <div class="md:col-span-4 col-span-5 text-lg">
                 <p>Spatial Cellular Architecture Predicts Prognosis in Glioblastoma
-                    <button class="link tooltip">[paper link]<span class="tooltiptext">coming soon!</span></button>
-                    <button class="link tooltip">[code]<span class="tooltiptext">coming soon!</span></button>
+                    <button class="link"><a href="https://www.nature.com/articles/s41467-023-39933-0">[paper link]</a></button>
+                    <button class="link"><a href="https://github.com/gevaertlab/GBM360">[code]</a></button>
                 </p>
                 <p class="pt-1 text-sm"> Yuanning Zheng, Francisco Carrillo-Perez, <span class="underline">Marija Pizurica</span>, Dieter Henrik Heiland and Olivier Gevaert
                 </p>

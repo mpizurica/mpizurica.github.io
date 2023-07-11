@@ -3,6 +3,17 @@
     <div class="flex flex-col space-y-2">
         <div class="grid grid-cols-5">
             <div class="">
+                <p class="list-info">Jul `23</p>
+            </div>
+            <div class="col-span-4">
+                <p> Our <span class="font-bold"> paper </span> 
+                    <span class="italic">"Spatial cellular architecture predicts prognosis in glioblastoma"</span>  
+                    was accepted in Nature Communications! </p>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-5">
+            <div class="">
                 <p class="list-info">Apr `23</p>
             </div>
             <div class="col-span-4">
@@ -21,6 +32,10 @@
                     was accepted in Nature Machine Intelligence! </p>
             </div>
         </div>
+    </div>
+    
+    <!-- expand section -->
+    <div v-show="expanded" class="flex flex-col space-y-2 pt-2">
         <div class="grid grid-cols-5">
             <div class="">
                 <p class="list-info">Aug `22</p>
@@ -33,10 +48,6 @@
                                             slide images using deep learning"</span>!</p>
             </div>
         </div>
-    </div>
-    
-    <!-- expand section -->
-    <div v-show="expanded" class="flex flex-col space-y-2 pt-2">
         <div class="grid grid-cols-5">
             <div class="">
                 <p class="list-info">Jul `22</p>
