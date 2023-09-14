@@ -98,11 +98,11 @@
         </div>
         <div class="grid grid-cols-5">
             <div class=" md:col-span-1 col-span-5 text-lg">
-                <p class="list-info w-full">Preprint</p>
+                <p class="list-info w-full">Cell Reports Methods '23</p>
             </div>
             <div class="md:col-span-4 col-span-5 text-lg">
                 <p>Synthetic whole-slide image tile generation with gene expression profiles infused deep generative models
-                    <button class="link"><a href="https://www.biorxiv.org/content/10.1101/2022.12.16.520705v1">[paper link]</a></button>
+                    <button class="link"><a href="https://www.cell.com/cell-reports-methods/pdfExtended/S2667-2375(23)00171-6">[paper link]</a></button>
                     <button class="link"><a href="https://github.com/gevaertlab/RNA-GAN"> [code] </a></button>
                 </p>
                 <p class="pt-1 text-sm">Francisco Carrillo-Perez, <span class="underline">Marija Pizurica</span>, Michael G.
