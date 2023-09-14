@@ -1,5 +1,5 @@
 <template>
-    <button class="mb-5 link tooltip"> [Google Scholar]<span class="tooltiptext">coming soon!</span></button>
+    <button class="mb-5 link tooltip"> <a href="https://scholar.google.com/citations?user=LrxvB8MAAAAJ&hl=en">[Google Scholar]</a></button>
     <div class="flex flex-col space-y-5"> 
         <div class="grid grid-cols-5">
             <div class=" md:col-span-1 col-span-5 text-lg">
