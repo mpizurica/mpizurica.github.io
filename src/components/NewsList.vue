@@ -3,15 +3,39 @@
     <div class="flex flex-col space-y-2">
         <div class="grid grid-cols-5">
             <div class="">
-                <p class="list-info">Jul `23</p>
+                <p class="list-info">Feb `24</p>
             </div>
             <div class="col-span-4">
-                <p> Our <span class="font-bold"> paper </span> 
-                    <span class="italic">"Spatial cellular architecture predicts prognosis in glioblastoma"</span>  
-                    was accepted in Nature Communications! </p>
+                <p> Our paper <span class="font-bold"> paper </span> 
+                    <span class="italic">"RNA-to-image multi-cancer synthesis using cascaded diffusion models"</span>  
+                    was accepted in Nature Biomedical Engineering! </p>
             </div>
         </div>
 
+        <div class="grid grid-cols-5">
+            <div class="">
+                <p class="list-info">Sep `23</p>
+            </div>
+            <div class="col-span-4">
+                <p> Started another research stay at Stanford University for 6 months! </p>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-5">
+            <div class="">
+                <p class="list-info">Jul `23</p>
+            </div>
+            <div class="col-span-4">
+                <p> New accepted <span class="font-bold"> paper </span> 
+                    <span class="italic">"Spatial cellular architecture predicts prognosis in glioblastoma"</span>  
+                    in Nature Communications! </p>
+            </div>
+        </div>
+        
+    </div>
+    
+    <!-- expand section -->
+    <div v-show="expanded" class="flex flex-col space-y-2 pt-2">
         <div class="grid grid-cols-5">
             <div class="">
                 <p class="list-info">Apr `23</p>
@@ -22,6 +46,7 @@
                     was accepted in Cancer Research! </p>
             </div>
         </div>
+        
         <div class="grid grid-cols-5">
             <div class="">
                 <p class="list-info">Feb `23</p>
@@ -32,10 +57,7 @@
                     was accepted in Nature Machine Intelligence! </p>
             </div>
         </div>
-    </div>
-    
-    <!-- expand section -->
-    <div v-show="expanded" class="flex flex-col space-y-2 pt-2">
+
         <div class="grid grid-cols-5">
             <div class="">
                 <p class="list-info">Aug `22</p>

@@ -1,6 +1,6 @@
 <template>
     <p>
-        Hi! I'm a 2nd year Computer Science PhD student advised by 
+        Hi! I'm a 3rd year Computer Science PhD student advised by 
         <a href="https://www.ugent.be/ea/idlab/en/members/kathleen-marchal.htm" class="underline"> Kathleen Marchal</a>
         at Ghent Univerisity and 
         <a href="https://med.stanford.edu/gevaertlab/people.html" class="underline"> Olivier Gevaert</a>  
